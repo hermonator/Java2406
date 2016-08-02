@@ -3,24 +3,23 @@ import java.util.Scanner;
 /**
  * Created by Jesse Hermon on 3/08/2016.
  */
-public class ArithmeticDemo2 {
+public class ArithmeticDemo3 {
     public static void main(String[] args) {
-        double firstNumber;
-        double secondNumber;
-        double sum;
-        double difference;
+        int firstNumber;
+        int secondNumber;
+        int sum;
+        int difference;
         double average;
-
         Scanner input = new Scanner(System.in);
 
         System.out.print("Please enter an integer >> ");
-        firstNumber = input.nextDouble();
+        firstNumber = input.nextInt();
         System.out.print("Please enter another integer >> ");
-        secondNumber = input.nextDouble();
+        secondNumber = input.nextInt();
 
         sum = firstNumber + secondNumber;
         difference = firstNumber - secondNumber;
-        average = sum/2;
+        average = sum / 2.0;
 
         System.out.println(firstNumber + " + " + secondNumber + " is " + sum);
         System.out.println(firstNumber + " - " + secondNumber + " is " + difference);
