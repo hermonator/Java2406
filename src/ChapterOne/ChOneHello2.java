@@ -1,4 +1,6 @@
-//Filename ChOneHello2
+package ChapterOne;
+
+//Filename ChapterOne.ChOneHello2
 //Written by Jesse Hermon
 //Written on the 1st of August
 public class ChOneHello2 {

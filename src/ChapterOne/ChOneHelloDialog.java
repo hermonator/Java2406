@@ -1,6 +1,8 @@
+package ChapterOne;
+
 import javax.swing.*;
 
-//Filename ChOneHelloDialog.java
+//Filename ChapterOne.ChOneHelloDialog.java
 //Written by Jesse Hermon
 //Written on the 1st of August
 public class ChOneHelloDialog {
