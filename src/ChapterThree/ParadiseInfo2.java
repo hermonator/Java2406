@@ -3,7 +3,7 @@ package ChapterThree;
 /**
  * Created by Jesse Hermon on 5/08/2016.
  */
-public class ParadiseInfo {
+public class ParadiseInfo2 {
     public static void main(String[] args) {
         displayInfo();
     }
