@@ -1,12 +1,16 @@
 package ChapterThree;
+import java.util.Scanner;
 
 /**
  * Created by Jesse Hermon on 6/08/2016.
  */
-public class NumbersDemo {
+public class NumbersDemo2 {
     public static void main(String[] args) {
-        int var1 = 10;
-        int var2 = 11;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a integer >> ");
+        int var1 = input.nextInt();
+        System.out.print("Enter another integer >> ");
+        int var2 = input.nextInt();
 
         displayTwiceTheNumber(var1);
         displayNumberPlusFive(var1);
