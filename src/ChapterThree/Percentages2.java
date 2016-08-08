@@ -1,13 +1,19 @@
 package ChapterThree;
+import java.util.Scanner;
 
 /**
  * Created by Jesse Hermon on 8/08/2016.
  */
-public class Percentages {
+public class Percentages2 {
     public static void main(String[] args) {
 
-        double var1 = 5;
-        double var2 = 10;
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the first number >> ");
+        double var1 = input.nextDouble();
+        System.out.print("Enter the second number >> ");
+        double var2 = input.nextDouble();
+
 
         computePercent(var1,var2);
         computePercent(var2,var1);
