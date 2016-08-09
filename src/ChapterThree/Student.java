@@ -36,4 +36,8 @@ public class Student {
     public int getNumberOfPointsEarned() {
         return numberOfPointsEarned;
     }
+
+    public double getGpa() {
+        return gpa;
+    }
 }
