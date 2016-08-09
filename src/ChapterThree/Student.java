@@ -9,6 +9,10 @@ public class Student {
     private int numberOfPointsEarned;
     private double gpa;
 
+    public void updateGpa() {
+        gpa = numberOfPointsEarned / numberOfCreditHoursEarned;
+    }
+
     public void setIdNumber(int idNumber) {
         this.idNumber = idNumber;
     }
