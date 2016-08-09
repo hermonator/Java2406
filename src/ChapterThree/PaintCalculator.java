@@ -8,8 +8,6 @@ import java.util.Scanner;
 public class PaintCalculator {
     public static void main(String[] args) {
 
-        // Constant for price per gallon
-        int PRICE_PER_GALLON = 32;
 
         Scanner input = new Scanner(System.in);
 
@@ -22,21 +20,38 @@ public class PaintCalculator {
         double width = input.nextDouble();
 
         // The inner wall are calculations
-        double innerWallArea = (2 * height * length) + (2 * height * length);
+        double totalCost = wallAreaCalculator(length,height,width);
 
-        // Passing the wall area to the gallon calculator function
-        double gallonAmount = gallonsCalculator(innerWallArea);
-
-        // Displays the amount of gallons require to paint the wall
-        System.out.println(gallonAmount + "to paint the inner wall surface area.");
+        // Display the final statement
+        System.out.println("The cost to paint a " + length + "-by-" + width + "-foot room with " + height +
+        "-foot ceilings is $" + totalCost);
 
 
 
     }
 
-    // Using the inputter values provided by the user calculates the inner wall area
+    // Using the inputted values provided by the user calculates the inner wall area
     public static double wallAreaCalculator(double length, double height, double width)
-    {}
+    {
+
+        // Constant for price per gallon
+        int PRICE_PER_GALLON = 32;
+
+        // Passing the wall area to the gallon calculator function
+        double wallAreaCalc = (2 * length * height) + (2 * width * height);
+
+        // passing the calculation of the gallon amount to another method
+        double gallonAmount = gallonsCalculator(wallAreaCalc);
+
+        // Displays the amount of gallons require to paint the wall
+        System.out.println(gallonAmount + "gallons to paint the inner wall surface area.");
+
+        // Calculating cost
+        double cost = gallonAmount * PRICE_PER_GALLON;
+
+         return cost;
+
+    }
 
     // Use a constant to calculate the amount of gallons required for the current wall area
     public static double gallonsCalculator(double wallArea)
