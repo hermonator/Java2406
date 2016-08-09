@@ -9,6 +9,12 @@ public class Student {
     private int numberOfPointsEarned;
     private double gpa;
 
+    public Student() {
+        idNumber = 9999;
+        numberOfPointsEarned = 12;
+        numberOfCreditHoursEarned = 3;
+    }
+
     public void updateGpa() {
         gpa = numberOfPointsEarned / numberOfCreditHoursEarned;
     }
