@@ -11,16 +11,17 @@ public class TwoCharacters {
         firstChar.setSpecialty("Ranger");
         firstChar.setAttack(54.9);
         firstChar.setDefense(12);
-        attributes(firstChar);
+
 
         MyCharacter secondChar = new MyCharacter();
         secondChar.setAttack(34);
         secondChar.setDefense(37);
         secondChar.setSpecialty("Warrior");
-        public static void attributes(MyCharacter a){
+
+        firstChar.displayCharacters();
+        secondChar.displayCharacters();
 
 
-        }
 
     }
 }

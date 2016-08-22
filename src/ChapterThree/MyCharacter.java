@@ -31,4 +31,10 @@ public class MyCharacter {
     public String getSpecialty() {
         return specialty;
     }
+
+    public void displayCharacters(){
+        System.out.print("Speciality: " + this.specialty + "\n");
+        System.out.print("Attack: " + this.attack + "\n");
+        System.out.print("Defense: " + this.defense + "\n");
+    }
 }
