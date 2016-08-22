@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d9e7404-63c1-4aad-867b-338f84d324f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ChapterThree/CarlysEventPriceWithMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ChapterThree/Event.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ChapterThree/CarlysEventPriceWithMethods.java" afterPath="$PROJECT_DIR$/src/ChapterThree/CarlysEventPriceWithMethods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ChapterThree/Event.java" afterPath="$PROJECT_DIR$/src/ChapterThree/Event.java" />
     </list>
     <ignored path="Java2406.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="CarlysEventPriceWithMethods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ChapterThree/CarlysEventPriceWithMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="171">
+              <caret line="21" column="38" selection-start-line="18" selection-start-column="8" selection-end-line="21" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -49,9 +48,16 @@
       <file leaf-file-name="Event.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ChapterThree/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="189">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding>
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/ChapterThree/MyCharacter.java" />
         <option value="$PROJECT_DIR$/src/ChapterThree/CarlysEventPrice.java" />
         <option value="$PROJECT_DIR$/src/ChapterThree/CarlysEventPriceWithMethods.java" />
+        <option value="$PROJECT_DIR$/src/ChapterThree/Event.java" />
       </list>
     </option>
   </component>
@@ -960,17 +967,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChapterThree/CarlysEventPriceWithMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="171">
+          <caret line="21" column="38" selection-start-line="18" selection-start-column="8" selection-end-line="21" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChapterThree/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="189">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

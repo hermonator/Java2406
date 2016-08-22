@@ -30,7 +30,7 @@ public class CarlysEventPriceWithMethods {
 
     }
     public static void pricing(int guestNumber){
-        int PRICE_PER_PERSON = 35;
+
         int totalPrice = guestNumber * PRICE_PER_PERSON;
         System.out.println("Number of guests: " + guestNumber);
         System.out.println("Price per guest: $" + PRICE_PER_PERSON);
