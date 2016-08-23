@@ -19,14 +19,12 @@ public class Rental {
     public void setHoursAndMinutes(int rentalTime){
 
         this.numberOfHours = rentalTime / 60;
-        rentalTime = rentalTime - this.numberOfHours * 60;
+        rentalTime = rentalTime - (this.numberOfHours * 60);
         this.numberOfMinutes = rentalTime;
 
-        this.price = this.numberOfHours * HOURLY_RATE + this.numberOfMinutes * HOURLY_RATE;
+        this.price = this.numberOfHours * HOURLY_RATE + this.numberOfMinutes;
 
-        System.out.println("Number of hours rented: " + this.numberOfHours);
-        System.out.println("Number of additional minutes rented: " + this.numberOfMinutes);
-        System.out.println("Total cost: $" + this.price);
+
 
     }
 
@@ -44,5 +42,12 @@ public class Rental {
 
     public double getPrice() {
         return price;
+    }
+    public static void motto(){
+        System.out.println("");
+        System.out.println("SsSsSsSsSsSsSsSsSsSsSsSsSsSsSsSsSsSsSs");
+        System.out.println("Ss Sammy's makes it fun in the sun  Ss");
+        System.out.println("SsSsSsSsSsSsSsSsSsSsSsSsSsSsSsSsSsSsSs");
+        System.out.println("");
     }
 }
