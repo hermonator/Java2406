@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d9e7404-63c1-4aad-867b-338f84d324f7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ChapterFour/DebugFour1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Prac3/DebugBox.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Prac3/DebugFour1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Prac3/DebugFour2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Prac3/DebugFour3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Prac3/DebugFour4.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ChapterFour/DebugFour2.java" afterPath="$PROJECT_DIR$/src/ChapterFour/FixDebugFour2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ChapterFour/DebugBox.java" afterPath="$PROJECT_DIR$/src/ChapterFour/DebugBox.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ChapterFour/DebugFour3.java" afterPath="$PROJECT_DIR$/src/ChapterFour/DebugFour3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ChapterFour/DebugFour4.java" afterPath="$PROJECT_DIR$/src/ChapterFour/DebugFour4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Prac3/CraftPricing.java" afterPath="$PROJECT_DIR$/src/Prac3/CraftPricing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Prac3/FixDebugThree1.java" afterPath="$PROJECT_DIR$/src/Prac3/FixDebugThree1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Prac3/FixDebugThree2.java" afterPath="$PROJECT_DIR$/src/Prac3/FixDebugThree2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Prac3/FixDebugThree3.java" afterPath="$PROJECT_DIR$/src/Prac3/FixDebugThree3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Prac3/FixDebugThree4.java" afterPath="$PROJECT_DIR$/src/Prac3/FixDebugThree4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Prac3/Insurance.java" afterPath="$PROJECT_DIR$/src/Prac3/Insurance.java" />
     </list>
     <ignored path="Java2406.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +24,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DebugFour3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ChapterFour/DebugFour3.java">
+      <file leaf-file-name="FixDebugFour3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ChapterFour/FixDebugFour3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
@@ -50,11 +34,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DebugFour4.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ChapterFour/DebugFour4.java">
+      <file leaf-file-name="FixDebugFour4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ChapterFour/FixDebugFour4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DebugBox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Prac3/DebugBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FixDebugFour1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Prac3/FixDebugFour1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FixDebugFour2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Prac3/FixDebugFour2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FixDebugFour3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Prac3/FixDebugFour3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FixDebugFour4.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Prac3/FixDebugFour4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -131,6 +165,12 @@
         <option value="$PROJECT_DIR$/src/ChapterFour/FixDebugFour2.java" />
         <option value="$PROJECT_DIR$/src/ChapterFour/DebugFour3.java" />
         <option value="$PROJECT_DIR$/src/ChapterFour/DebugBox.java" />
+        <option value="$PROJECT_DIR$/src/ChapterFour/FixDebugFour4.java" />
+        <option value="$PROJECT_DIR$/src/Prac3/DebugBox.java" />
+        <option value="$PROJECT_DIR$/src/Prac3/FixDebugFour1.java" />
+        <option value="$PROJECT_DIR$/src/Prac3/FixDebugFour2.java" />
+        <option value="$PROJECT_DIR$/src/Prac3/FixDebugFour3.java" />
+        <option value="$PROJECT_DIR$/src/Prac3/FixDebugFour4.java" />
       </list>
     </option>
   </component>
@@ -262,7 +302,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.DebugFour4">
+  <component name="RunManager" selected="Application.FixDebugFour4">
     <configuration default="false" name="FixDebugFour1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -283,14 +323,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="DebugFour4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FixDebugFour4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ChapterFour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ChapterFour.DebugFour4" />
+      <option name="MAIN_CLASS_NAME" value="ChapterFour.FixDebugFour4" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -343,14 +383,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="DebugFour3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FixDebugFour3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ChapterFour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ChapterFour.DebugFour3" />
+      <option name="MAIN_CLASS_NAME" value="ChapterFour.FixDebugFour3" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -599,15 +639,15 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.FixDebugFour1" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DebugFour4" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FixDebugFour4" />
       <item index="2" class="java.lang.String" itemvalue="Application.FixDebugThree1" />
       <item index="3" class="java.lang.String" itemvalue="Application.FixDebugFour2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DebugFour3" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FixDebugFour3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DebugFour4" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DebugFour3" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FixDebugFour4" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FixDebugFour3" />
         <item index="2" class="java.lang.String" itemvalue="Application.FixDebugFour2" />
         <item index="3" class="java.lang.String" itemvalue="Application.FixDebugFour1" />
         <item index="4" class="java.lang.String" itemvalue="Application.FixDebugThree1" />
@@ -756,41 +796,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ChapterTwo/Exercise2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChapterTwo/FixDebugTwo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChapterTwo/QuartsToGallonsInteractive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChapterTwo/QuartsToGallonsInteractive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChapterTwo/NauticalMilesInteractive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ChapterTwo/IntegerDemoInteractiveWithName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1130,7 +1135,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChapterFour/DebugFour3.java">
+    <entry file="file://$PROJECT_DIR$/src/ChapterFour/FixDebugFour3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
@@ -1138,10 +1143,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChapterFour/DebugFour4.java">
+    <entry file="file://$PROJECT_DIR$/src/ChapterFour/FixDebugFour4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prac3/DebugBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prac3/FixDebugFour1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prac3/FixDebugFour2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prac3/FixDebugFour3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prac3/FixDebugFour4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
           <folding />
         </state>
       </provider>
