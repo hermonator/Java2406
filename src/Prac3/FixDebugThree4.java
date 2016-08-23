@@ -1,5 +1,5 @@
 // This program calculates tutition bills as credits times rate per credit hour
-package ChapterThree;
+package Prac3;
 public class FixDebugThree4
 {
    public static void main(String args[])
