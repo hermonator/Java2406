@@ -1,6 +1,6 @@
 // This class discounts prices by 10%
 package ChapterFour;
-public class DebugFour4
+public class FixDebugFour4
 {
    public static void main(String args[])
    {
