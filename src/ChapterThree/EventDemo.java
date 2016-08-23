@@ -3,17 +3,26 @@ import java.util.Scanner;
 /**
  * Created by jc259420 on 4/08/2016.
  */
-public class CarlysEventPriceWithMethods {
+public class EventDemo {
     public static void main(String[] args) {
 
-        int guestNumber = numberOfPeople();
+        // Event Declaration
+        Event event1 = new Event();
 
+        event1.setNumberOfGuests(numberOfPeople());
+
+        event1.setEventNumber(eventNumber());
         motto();
-
-        pricing(guestNumber);
-
+        display(event1);
 
 
+    }
+    public static String eventNumber(){
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the event number >> ");
+        String eventNumbers;
+        eventNumbers = input.nextLine();
+        return (eventNumbers);
     }
     public static int numberOfPeople(){
         Scanner input = new Scanner(System.in);
@@ -29,15 +38,16 @@ public class CarlysEventPriceWithMethods {
         System.out.println("*************************************************");
 
     }
-    public static void pricing(int guestNumber){
-
-        int totalPrice = guestNumber * PRICE_PER_PERSON;
-        System.out.println("Number of guests: " + guestNumber);
-        System.out.println("Price per guest: $" + PRICE_PER_PERSON);
-        System.out.println("Total pricing: $" + totalPrice);
+    public static void display(Event eventNum){
 
 
-        if (guestNumber >= 50){
+        System.out.println("Event Number: " + eventNum.getEventNumber());
+        System.out.println("Number of guests: " + eventNum.getNumberOfGuests());
+        System.out.println("Price per guest: $35");
+        System.out.println("Total pricing: $" + eventNum.getCostings());
+
+
+        if (eventNum.getNumberOfGuests() >= 50){
             System.out.println("Large party status: True");
         } else{
             System.out.println("Large party status: False");

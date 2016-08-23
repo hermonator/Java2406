@@ -24,7 +24,7 @@ public class Event {
     }
 
     public int getNumberOfGuests() {
-        
+
         return numberOfGuests;
     }
 
