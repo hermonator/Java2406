@@ -19,16 +19,10 @@ public class SammysRentalPriceWithMethods {
         final int PRICE_PER_HOUR = 40;
         final int PRICE_PER_MINUTE = 1;
 
-        int numberOfHours = rentalTime / 60;
-        rentalTime = rentalTime - numberOfHours * 60;
-        int numberOfMinutes = rentalTime;
-
-        int rentalCost = numberOfHours * PRICE_PER_HOUR + numberOfMinutes * PRICE_PER_MINUTE;
 
 
-        System.out.println("Number of hours rented: " + numberOfHours);
-        System.out.println("Number of additional minutes rented: " + numberOfMinutes);
-        System.out.println("Total cost: $" + rentalCost);
+
+        
     }
     public static void companyLogo(){
         System.out.println("");
