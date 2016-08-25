@@ -5,6 +5,19 @@ package ChapterFour;
  */
 public class DemoOverload {
     public static void main(String[] args) {
-        //pg 198
+        int month = 6, day = 24, year = 2017;
+        displayDate(month);
+        displayDate(month, day);
+        displayDate(month, day, year);
+    }
+
+    public static void displayDate(int mm){
+        System.out.println("Event data " + mm + "/1/2016");
+    }
+    public static void displayDate(int mm, int dd){
+        System.out.println("Event data " + dd + "/" + mm + "/2016");
+    }
+    public static void displayDate(int mm, int dd, int yy){
+        System.out.println("Event data " + dd + "/" + mm + "/" + yy);
     }
 }
