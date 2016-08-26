@@ -11,5 +11,7 @@ public class TestDogs {
         dog2.display();
         DogTriathlonParticipant dog3 = new DogTriathlonParticipant("Ginger",3,90,86,72);
         dog3.display();
+
+        dog1.display();
     }
 }
