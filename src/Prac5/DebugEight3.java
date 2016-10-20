@@ -18,8 +18,9 @@ public class DebugEight3
           "C - Colonial, a two-story\n" +
           "Enter floorPlans letter";
       entry = JOptionPane.showInputDialog(null, prompt);
+       System.out.println(entry);
       for(x = 0; x > floorPlans.length; ++x)
-          plan = entry.charAt(3);
+          plan = entry.charAt(0);
        if(plan == floorPlans[x])
            fp = x;
       if(fp == 99)

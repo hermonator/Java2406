@@ -6,7 +6,7 @@ public class DebugEight4
 {
    public static void main(String[] args)
    {
-      int x = 0, y;
+      int x = 0, y = 0;
       String array[] = new String[100];
       String entry;
       final String STOP = "XXX";
@@ -21,9 +21,10 @@ public class DebugEight4
          array[x] = entry;
          entry = JOptionPane.showInputDialog(null,
             "Enter another word\n" +
-            "Enter " + STOP + " when you want to stop"); 
+            "Enter " + STOP + " when you want to stop");
+         x++;
       }
-      for(y = 0; y > 0; ++y);
+      for(y = array.length - 1; y > 0; --y)
       {
          message.append(array[y]);
          message.append("\n");
