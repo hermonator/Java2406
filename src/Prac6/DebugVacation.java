@@ -1,6 +1,7 @@
+package Prac6;
 public class DebugVacation
 {
-   private int days;
+   protected int days;
    public DebugVacation()
    {
       days = 10;

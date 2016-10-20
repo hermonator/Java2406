@@ -1,14 +1,16 @@
+package Prac6;
 import javax.swing.*;
 public class DebugPhoneBook extends DebugBook
 {
-   private String area
-   private String size 
+   private String area;
+   private String size;
    private final int CUTOFF = 30;
-   FixDebugPhoneBook(int pages, int city)
+
+   DebugPhoneBook(int pages, String city)
    {
       super(pages);
       area = city;
-      if(pages < CUTOFF)
+      if(pages > CUTOFF)
          size = "big";
       else
          size = "small";
