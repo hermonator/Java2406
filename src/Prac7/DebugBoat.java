@@ -1,3 +1,4 @@
+package Prac7;
 public abstract class DebugBoat
 {
    String boatType = new String();
@@ -9,8 +10,10 @@ public abstract class DebugBoat
    }
    // override equals() method to satisfy
    // requirements of Debug Exercise 3.
+
    public boolean equals(DebugBoat otherBoat)
    {
+
       boolean result;
       if((passengers == otherBoat.passengers) && (power.equals(otherBoat.power)))
          result = true;

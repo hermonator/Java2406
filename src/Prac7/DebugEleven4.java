@@ -1,5 +1,6 @@
 // Creates and displays an array of boats -
 // some are rowboats; some are ocean liners
+package Prac7;
 import javax.swing.*;
 public class DebugEleven4
 {
@@ -17,12 +18,12 @@ public class DebugEleven4
      {
         boatType = getBoat();
         if(boatType =='r')
- 	     boatArray[x] = DebugRowboat();
+ 	     boatArray[x] = new DebugRowboat();
         else
-          boatArray[x] = DebugOceanLiner();
+          boatArray[x] = new DebugOceanLiner();
      }
    }
-   public static void getBoat()
+   public static char getBoat()
    {
       String boatType;
       boatType = JOptionPane.showInputDialog(null, 
@@ -31,8 +32,8 @@ public class DebugEleven4
    }
    public static void displayArray()
    {
-      for(int x = 0; x < boatArray.length; --x)
+      for(int x = 0; x < boatArray.length; ++x)
       JOptionPane.showMessageDialog(null, "Boat #" + (x  + 1) +
-         boatArray[x].toString);
+         boatArray[x].toString());
    }
 }
