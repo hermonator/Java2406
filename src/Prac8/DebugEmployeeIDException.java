@@ -1,6 +1,7 @@
+package Prac8;
 public class DebugEmployeeIDException extends Exception
 {
-   public DebugEmployeeIDException()
+   public DebugEmployeeIDException(String s)
    {
       super(s);
    }

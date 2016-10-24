@@ -1,5 +1,6 @@
 // Catch exceptions for array index out of bounds
 // or dividing by 0 
+package Prac8;
 import javax.swing.*;
 public class DebugTwelve3
 {
@@ -9,7 +10,7 @@ public class DebugTwelve3
       int num, result;
       int[] array = {12, 4, 6, 8};
       inStr = JOptionPane.showInputDialog(null, "Enter a number ");
-      num = Integer.parse(inStr);
+      num = Integer.parseInt(inStr);
       try
       {
          for(int x = 0; x < array.length; ++x)
@@ -24,7 +25,7 @@ public class DebugTwelve3
       {
           JOptionPane.showMessageDialog(null, "Arithmetic error - division by 0");   
       }
-      catch(IndexException error)
+      catch(IndexOutOfBoundsException error)
       {
          JOptionPane.showMessageDialog(null, "Index error - subscript out of range");
       }
